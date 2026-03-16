@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news home page</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main">
+
+        <!------------------------------------------------------------ grid row 1 header ------------------------------------------------------------------------------------------------------------->
+        
+        <div class="navbar"> 
+            <header class="grid-1">
+                <div class="logo">
+                    <img src="./assets/images/logo.svg" alt="">
+                </div>
+
+                <nav>
+                    <ul class="links">
+                        <li><a href="#" class="main-nav-link">Home</a></li>
+                        <li><a href="#" class="main-nav-link">New</a></li>
+                        <li><a href="#" class="main-nav-link">Popular</a></li>
+                        <li><a href="#" class="main-nav-link">Trending</a></li>
+                        <li><a href="#" class="main-nav-link">Categories</a></li>
+                    </ul>
+                </nav>
+
+                <div class="hamburger">
+                    <img src="./assets/images/icon-menu.svg" alt="" id="open"  class="menu">
+                    <img src="./assets/images/icon-menu-close.svg" alt="" id="close" class="menu-close isActive" >
+                </div>
+            </header> 
+
+            <div class="menu-aside  isActive">
+                <ul class="mobile-links">
+                        <li><a href="#" class="mobile-nav-link main-nav-link">Home</a></li>
+                        <li><a href="#" class="mobile-nav-link main-nav-link">New</a></li>
+                        <li><a href="#" class="mobile-nav-link main-nav-link">Popular</a></li>
+                        <li><a href="#" class="mobile-nav-link main-nav-link">Trending</a></li>
+                        <li><a href="#" class="mobile-nav-link main-nav-link">Categories</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-------------------------------------------------------------- grid row 1 ends header ends-------------------------------------------------------------------------------------------------------------------------->
+
+        <!-------------------------------------------------------------- row 2 main image and text including aside ------------------------------------------------------------------------------------------->
+        <div class="main-headline">
+            <div class="headline-img"> <!-- main img-->
+                <picture>
+                    <source srcset="./assets/images/image-web-3-mobile.jpg" media="(max-width:420px)">
+                    <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+                </picture>
+                
+            </div>
+
+            <div class="headline-text"> <!-- main text-->
+                <div class="headline-text-box-1">
+                    <h1>The Bright Future of Web 3.0?</h1>
+                </div>
+                <div class="headline-text-box-2">
+                    <p class="main-para">We dive into the next evolution of the web that claims to put the power of the platforms into the hands of the people. But is it really fulfilling its promise?</p>    
+                    <button class="btn-read-more">READ MORE</button>
+                </div>
+            </div>
+
+            <div class="aside-sub-titles">
+                <h2>New</h2>
+                <div class="sub-title">
+                    <h3>Hydrogen VS Electric Cars</h3>
+                    <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                
+                <div class="hr-line"></div>
+
+                <div class="sub-title">
+                    <h3>The Downsides of AI Artistry</h3>
+                    <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                </div>
+
+                <div class="hr-line"></div>
+
+                <div class="sub-title">
+                    <h3>Is VC Funding Drying Up?</h3>
+                    <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </div>
+                
+            </div> <!-- aside ends-->
+
+        </div>
+        <!-- ---------------------------------------------------- row 2 main image and text including aside ends ------------------------------------------------------------------------------>
+
+        <!-- -------------------------------------------------------row 3 news and stories ----------------------------------------------->
+        <div class="news-stories">
+            <div class="story story-01">
+                <img src="./assets/images/image-retro-pcs.jpg" alt="">
+                <h2>01</h2>
+                <h3><a href="#">Reviving Retro PCs</a></h3>
+                <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+  
+            <div class="story story-02">
+                <img src="./assets/images/image-top-laptops.jpg" alt="">
+                <h2>02</h2>
+                <h3><a href="#">Top 10 Laptops of 2022</a></h3>
+                <p>Our best picks for various needs and budgets.</p>
+            </div>
+
+            <div class="story story-03">
+                <img src="./assets/images/image-gaming-growth.jpg" alt="">
+                <h2>03</h2>
+                <h3><a href="#">The Growth of Gaming</a></h3>
+                <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>      
+        </div>
+        <!-------------------------------------------------------- row 3 news and stories  ends ------------------------------------------------------------------------------->
+
+    </div> <!-- main ends-->
+
+
+
+
+
+
+
+
+    <!-- script -->
+     <script src="./script.js"></script>
+    
+</body>
+</html>
